@@ -93,8 +93,8 @@
 
                     
 
-                    <button class="btn">Sign Up</button>
-                    <button class="btn">Log In</button>
+                    <button onclick="location.href='{{ url('register') }}'" class="btn"  >Sign Up</button>
+                    <button onclick="location.href='{{ url('login') }}'" class="btn">Log In</button>
                 </div>
             </section>
     
