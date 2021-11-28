@@ -6,6 +6,7 @@
     <thead>
       <tr>
         <th scope="col">#</th>
+        <th scope="col">Reason for visit</th>
         <th scope="col">Diagnosis</th>
         <th scope="col">Blood Presure</th>
         <th scope="col">Pulse Rate</th>
@@ -22,13 +23,16 @@
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td>Mark</td>
-        <td>65</td>
-        <td>102</td>
-        <td>102</td>
+        <td>Migraine</td>
+        <td>120/76</td>
+        <td>72/mm</td>
+        <td>16</td>
+        <td>Neurology - Normal</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>Paracetamol 2tab 6hours 3d <br>
+        Stematil 5mg 1tab 8hours 3d <br>
+        Famotidine 20mg 12hours 3d <br>
+        </td>
         <td>No</td>
         <td>2021-10-31 07:24:50</td>
         <td>2021-10-31 07:24:5</td>

@@ -7,7 +7,12 @@
 <form>
 
     <div class="form-group">
-        <label for="diagnosis">Reason for visit / diagnosis</label>
+        <label for="diagnosis">Reason for visit</label>
+        <textarea class="form-control" id="diagnosis" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="diagnosis">Diagnosis</label>
         <textarea class="form-control" id="diagnosis" rows="5"></textarea>
       </div>
     
@@ -25,23 +30,27 @@
     </p>
     <div class="row">
       <div class="col">
-        <div class="collapse multi-collapse" id="blood_presure">
+        <div class="collapse multi-collapse" id="bp">
           <div class="card card-body">
-          <input type="text" class="form-control" id="blood_presure" placeholder="Blood presure">
+            <label for="other">Blood Presure</label>
+            <textarea class="form-control" id="bp"  rows="5"></textarea>
+          
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="collapse multi-collapse" id="pulse_rate">
+        <div class="collapse multi-collapse" id="pulsrate">
           <div class="card card-body">
-          <input type="text" class="form-control" id="pulse_rate" placeholder="Pulsrate">
+            <label for="other">Pulse Rate</label>
+            <textarea class="form-control" id="pulsrate"  rows="5"></textarea>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="collapse multi-collapse" id="respiratory_rate">
+        <div class="collapse multi-collapse" id="respiratoryrate">
           <div class="card card-body">
-          <input type="text" class="form-control" id="respiratory_rate" placeholder="Respiratoryrate">
+          <label for="other">Respiratory Rate</label>
+          <textarea class="form-control" id="respiratoryrate"  rows="5"></textarea>
           </div>
         </div>
       </div>
@@ -54,6 +63,7 @@
           </div>
         </div>
       </div>
+     
     
     </div>
 </div>
