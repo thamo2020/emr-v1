@@ -18,45 +18,11 @@
         <th scope="col">Treatments</th>
         <th scope="col">Special Notes</th>
         <th scope="col">Created Date</th>
-        <th scope="col">Updated Date</th>
+        <th scope="col"></th>
 
       </tr>
     </thead>
     <tbody>
-
-      <!--tr>
-        <th scope="row">3</th>
-        <th>Fever</th>
-        <td>Viral fever</td>
-        <td>110/70</td>
-        <td>96/mm</td>
-        <td>18/mm</td>
-        <td>Eaminarion - Normal</td>
-        <td>FBC <br>CRP <br> UFR </td>
-        <td>Paracetamol 2tab 6hours 3d <br>
-          Piriton 4mg 12hours 3d
-          </td>
-        <td>No</td>
-        <td>2021-11-29 </td>
-        <td>2021-11-29 </td>
-      </!--tr-->
-
-      <tr>
-        <th scope="row">2</th>
-        <th>Abdominal pain, Fever</th>
-        <td>Urinary tracr injection</td>
-        <td>150/90</td>
-        <td>84/mm</td>
-        <td>18</td>
-        <td>Lower abdominal tenderness</td>
-        <td>FBC <br> UFR</td>
-        <td>Paracetamol 2tab 6hours 3d <br>
-        Crprofioxacin 500mg 12hours 3d
-        </td>
-        <td>No</td>
-        <td>2021-11-01 </td>
-        <td>2021-11-01 </td>
-      </tr>
 
       <tr>
         <th scope="row">1</th>
@@ -73,9 +39,54 @@
         </td>
         <td>No</td>
         <td>2021-10-25 </td>
-        <td>2021-10-25 </td>
+        <td><button type="button" style="margin-bottom: 10px" class="btn btn-primary">Edit</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+        </td>
 
       </tr>
+
+      <tr>
+        <th scope="row">2</th>
+        <th>Abdominal pain, Fever</th>
+        <td>Urinary tracr injection</td>
+        <td>150/90</td>
+        <td>84/mm</td>
+        <td>18</td>
+        <td>Lower abdominal tenderness</td>
+        <td>FBC <br> UFR</td>
+        <td>Paracetamol 2tab 6hours 3d <br>
+        Crprofioxacin 500mg 12hours 3d
+        </td>
+        <td>No</td>
+        <td>2021-11-01 </td>
+        <td><button type="button" style="margin-bottom: 10px" class="btn btn-primary">Edit</button>
+          <button type="button" class="btn btn-danger">Delete</button>
+      </td>
+      </tr>
+
+      <tr>
+        <th scope="row">3</th>
+        <th>Fever</th>
+        <td>Viral fever</td>
+        <td>110/70</td>
+        <td>96/mm</td>
+        <td>18/mm</td>
+        <td>Eaminarion - Normal</td>
+        <td>FBC <br>CRP <br> UFR </td>
+        <td>Paracetamol 2tab 6hours 3d <br>
+          Piriton 4mg 1tab 12hours 3d
+          </td>
+        <td>No</td>
+        <td>2021-11-29 </td>
+        <td>2021-11-29 </td>
+        <td><button type="button" style="margin-bottom: 10px" class="btn btn-primary">Edit</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+
+     
+
+      
       
      
     </tbody>
